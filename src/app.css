@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.header .theme {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .theme .theme-logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.header .theme .theme-text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.header .input {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .input input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.countries {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding-left: 35px;
+}
+.country {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.country .country-name {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.country .country-name h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.country .country-population {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.country .country-population p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.country .country-region {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.country .country-region p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.country .country-capital {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.country .country-capital p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.filter{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter .input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.filter .input input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.filter .select{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.filter .select select{
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
