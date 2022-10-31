@@ -11,16 +11,16 @@ function App() {
   const [region, setRegion] = useState("");
 
   useEffect(() => {
-    getApi()
+    getApi();
   }, []);
 
   const getApi = () => {
-    if(region === ""){
+    if (region === "") {
       fetch("https://restcountries.com/v2/all")
-      .then((res) => res.json())
-      .then((data) => setCountries(data));
+        .then((res) => res.json())
+        .then((data) => setCountries(data));
     }
-  }
+  };
 
   const changeTheme = () => {
     if (theme === "light") {
@@ -52,7 +52,11 @@ function App() {
         setCountries={setCountries}
       />
 
-      <Countries filteredCountries={filteredCountries} />
+      <Countries
+        filteredCountries={filteredCountries}
+        theme={theme}
+        setTheme={setTheme}
+      />
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Header({ theme, changeTheme}) {
   return (
     <div className="header">
       <div className="title">
-        <h1>What Where</h1>
+        <h1>Ülkeler Nerede?</h1>
       </div>
       <div onClick={() => changeTheme()} className="theme">
         <div className="theme-logo">
